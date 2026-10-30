@@ -1,189 +1,106 @@
-# Hi there, I'm Soundarya Dash 👋
-
-**Full Stack Developer | AI/ML Enthusiast | Cloud Architecture Expert**
-
-Currently pursuing Masters in Computer Science at Temple University, Philadelphia, with 6 years of experience building robust, scalable web applications and cloud infrastructure.
-
-## 🚀 About Me
-
-- 🎓 Master's student in Computer Science at Temple University (2025-2027)
-- 💼 Former Software Engineer III at JP Morgan & Chase
-- 🔭 Passionate about architecting complex systems, microservices, and AI/ML applications
-- 🌱 Exploring LLMs, LangGraph, and advanced cloud architectures
-- 📍 Based in Philadelphia, PA
-- 📫 Reach me: dashsoundarya12@gmail.com
-- 💼 [LinkedIn](https://www.linkedin.com/in/soundarya-dash/)
-
-## 💻 Technical Stack
-
-**Frontend Development**
-```
-React.js • Angular • TypeScript • Redux • Material-UI • Bootstrap • HTML5 • CSS3
-```
-
-**Backend Development**
-```
-Node.js • Python • Java (Spring Boot, Hibernate) • Express.js • Microservices
-```
-
-**Databases & Messaging**
-```
-MongoDB • MySQL • Redis • Kafka • PostgreSQL
-```
-
-**Cloud & DevOps**
-```
-AWS (Lambda, EC2, S3, ECS, EKS, CloudWatch, Textract, API Gateway, CloudFormation)
-Docker • Kubernetes • Terraform • CI/CD (Jenkins, Harness, Spinnaker)
-```
-
-**AI/ML Tools**
-```
-LangChain LangGraph FineTuning • LLMs • AWS Textract • Machine Learning Pipelines
-```
-
-**Testing & Quality**
-```
-Jest • Cypress • JUnit • Mockito • Pytest • Spock
-```
-
-## 🏆 Notable Achievements
-
-- **Circle of Excellence Award** (2023) - JP Morgan & Chase
-  - Designed robust Client Data Model solution integrating Salesforce with downstream systems
-  
-- **Hackathon Winner** (2024) - JP Morgan & Chase
-  - Built AI-powered centralized task management dashboard for bankers
-  
-- **70% Reduction** in manual effort through LLM-based incident automation
-- **$1M+ AWS Infrastructure** managed using Terraform
-- **10,000+ Documents** processed daily through AI-powered OCR systems
-
-This is a stellar set of projects. You’re hitting the "AI Engineering" trifecta: **Multi-agent orchestration**, **RAG architecture**, and **Enterprise API integration**.
-
-To make these shine in a `README.md`, I’ve organized them into a professional portfolio format that emphasizes the "How" and the "Result," which is exactly what hiring managers look for.
-
----
-
-# AI Automation Portfolio
-
-A collection of enterprise-grade AI systems designed to bridge the gap between design, documentation, and technical execution.
-
-## 🤖 AI-Powered JIRA Automation System
-
-**Bridging Figma Designs to Development Backlogs**
-
-This system utilizes a multi-agent orchestration layer to transform visual design assets into actionable developer documentation.
-
-### 🛠 Tech Stack
-
-* **Orchestration:** LangGraph, LangChain
-* **LLM:** OpenAI GPT-4
-* **Languages & Cloud:** Python, AWS Lambda
-* **Integrations:** JIRA REST API, Figma API
-
-### 🚀 Key Features
-
-* **Multi-Agent Architecture:** Specialized agents for Design Component Extraction, User Flow Analysis, and Acceptance Criteria (AC) Generation.
-* **Automated Requirement Extraction:** Achieved **85% accuracy** in translating Figma frames into technical user stories via advanced prompt engineering.
-* **Bidirectional Sync:** Real-time consistency using JIRA webhooks and Figma plugins; updates in the design automatically trigger updates in the corresponding JIRA story.
-
----
-
-## 🛠 RAG-Based ServiceNow Incident Chatbot
-
-**Context-Aware IT Support & Automated Ticket Lifecycle**
-
-A Retrieval-Augmented Generation (RAG) pipeline that leverages historical data and documentation to resolve or route IT incidents autonomously.
-
-### 🛠 Tech Stack
-
-* **AI/ML:** LangChain, OpenAI Embeddings
-* **Vector Store:** Pinecone DB
-* **Frontend & API:** React.js, ServiceNow REST API
-* **Infrastructure:** AWS Lambda, Python
-
-### 🚀 Key Features
-
-* **Knowledge Retrieval:** Engineered a RAG pipeline utilizing document chunking and semantic search across **10,000+ pages** of runbooks and historical patterns.
-* **Intelligent Routing:** Integrated LangChain **function calling** to automate ticket creation, priority classification, and SLA assignment based on team expertise.
-* **Compliance Ready:** Maintained comprehensive audit trails for every AI-generated action to meet enterprise compliance standards.
-
----
-
-### 📈 Impact Summary
-
-| Metric | AI-JIRA System | RAG Chatbot |
-| --- | --- | --- |
-| **Accuracy** | 85% Extraction Rate | Context-Aware Resolution |
-| **Data Volume** | Real-time Design Sync | 10k+ Document Pages |
-| **Automation** | Bidirectional JIRA Updates | Full Ticket Lifecycle |
-
----
-
-## 🔥 Featured Projects
-
-### Sales Experience Platform | JP Morgan & Chase
-Architected microservices-based financial platform handling $10M+ in daily transactions with 50% latency reduction.
-- **Tech Stack:** Java, Spring Boot, React, AWS, Kubernetes, LangGraph
-- **Impact:** 90% accuracy in LLM-based incident automation
-
-### HITL Document Processing System | Thomson Reuters
-AI-powered legal document processing system achieving 95% accuracy at scale.
-- **Tech Stack:** Python, AWS Textract, Spring Boot, MySQL
-- **Impact:** 60% reduction in manual processing time
-
-### Healthcare EMR System | JIO Platforms
-Full-stack Electronic Medical Records system serving 100,000+ users with real-time updates.
-- **Tech Stack:** MERN Stack, Socket.io, Redis, Kafka
-- **Impact:** 40% improvement in data retrieval speed
-
-### 🤖 [JAI Agent Accelerator](https://github.com/soundarya-dash-673/jai-agent-accelerator)
-AI agent framework with Mixture of Experts methodology - From prototype to production in 48 hours.
-- **Tech Stack:** Python
-- **License:** MIT
-
-### 📊 [Latency Visualizer](https://github.com/soundarya-dash-673/latency-visualizer)
-Personal learning project demonstrating visual latency between multiple stock exchanges.
-- **Tech Stack:** TypeScript
-- **Focus:** Real-time data visualization and financial systems
-
-## 📊 GitHub Stats
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=soundarya-dash-673&layout=compact&theme=radical&hide_border=true)
-
-## 🎯 Current Focus
-
-- Building scalable microservices architectures
-- Implementing AI/ML solutions in production environments
-- Cloud-native application development
-- Contributing to open-source projects
-- Mastering Data Structures and Algorithms
-
-## 📜 Certifications
-
-- ☁️ AWS Solutions Architect Associate (2024)
-- 🏗️ HashiCorp Terraform Associate (2024)
-
-## 📝 Publications
-
-**Sentimental Analysis Using GSM Technologies** - IJARIIE 2018
-- [Read Publication](https://ijariie.com/FormDetails.aspx?MenuScriptId=96585)
-- Remote patient monitoring system using GSM technology for vital signs tracking
-
-## 🤝 Let's Connect!
-
-I'm always interested in collaborating on innovative projects, especially those involving:
-- Cloud-native architectures
-- AI/ML applications
-- Microservices and distributed systems
-- Full-stack development
-
-Feel free to reach out for collaborations or just a chat about technology!
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/soundarya-dash/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dashsoundarya12@gmail.com)
-
----
-
-⭐️ From [Soundarya Dash](https://github.com/soundarya-dash-673) | 💼 Building the future, one commit at a time
+Hi, I'm Soundarya Dash
+Senior Software Engineer · ML Engineer · AI Agent Governance · Agentic AI
+Philadelphia, PA · dashsoundarya12@gmail.com · linkedin.com/in/soundarya-dash · Devpost portfolio · github.com/codergirl73/soundarya-dash-673
+About me
+Senior Software Engineer and ML Engineer with 6+ years shipping enterprise distributed systems, agentic AI platforms, and production RAG pipelines at JPMorgan Chase, Thomson Reuters, and Jio Platforms.
+Currently building neurosymbolic agent governance at Sondera AI — policy-as-code enforced on every agent action, with monitoring and human escalation.
+M.S. Computer Science, Temple University (GPA 3.64, expected May 2027), with a focus on applied machine learning, interpretable AI, and deep learning.
+My work follows one principle: let the model read, explain, and draft — and let deterministic code verify, score, and decide. That pattern runs through everything below, from prior-authorization checks and claim verification to incident agents that are only allowed to merge a fix when a policy gate, not the agent, says so.
+What I work on
+Agent governance and security — neurosymbolic policy enforcement, autoformalization, policy-as-code, trajectory scanning, monitor agents, human-in-the-loop escalation, prompt-injection defenses, and audit trails an independent reviewer can re-check.
+Agentic AI systems — multi-agent orchestration with LangGraph, MCP servers and MCP Apps, tool-use loops with explicit consent locks, and agents that surface their work instead of acting silently.
+Production ML and RAG — RAG pipelines over large document sets, document extraction with human quality gates, interpretable ML, and LLM automation deployed inside enterprise controls (PII redaction, RBAC, least-privilege access).
+Current work — Sondera AI
+Full Stack Developer Intern, Sondera AI · Philadelphia, PA · Jun 2026 – Present
+Rust · Python · GCP · Svelte · React
+Sondera is a neurosymbolic agent governance platform: natural-language organisational rules are compiled into formally verified policy-as-code, and that policy is enforced on every agent action, across any runtime or harness.
+Contribute to the autoformalization engine that compiles natural-language rules into formally verified policy-as-code; contribute Rust evaluation components, using memory safety and zero-cost abstractions for provable correctness at agent runtime.
+Engineered a trajectory scanner grounded in four reliability pillars — correctness, safety, efficiency, compliance — with a monitor agent that surfaces violations or escalates to a human.
+Built Policy Studio (Svelte/React + GCP) for authoring, simulating, versioning, and auditing policies, with rubric-driven evaluation logic for reviewing policies end to end.
+Built an Ops Dashboard with enforcement metrics, violation trends, and forensic proof trails, so a production AI deployment can be signed off with evidence rather than trust.
+Experience
+Software Engineer III — JPMorgan Chase & Co. · Bengaluru, India · Oct 2022 – Aug 2025
+LangGraph · GPT-4 · RAG · AWS · Terraform · Spring Boot · Kafka
+Architected a LangGraph multi-agent system converting Figma wireframes to JIRA stories — 85% accuracy, 65% faster story creation across 15+ teams — with least-privilege IAM and prompt-injection defenses throughout. The multi-agent design split the work across a design component extractor, a user flow analyzer, and an acceptance criteria generator, with bidirectional sync between Figma designs and JIRA.
+Deployed secured LLM incident automation (LangGraph + GPT-4) with human-in-the-loop feedback loops — 90% severity accuracy, 70% less manual incident creation.
+Built a production RAG pipeline over 10,000+ docs as a ServiceNow chatbot — 90% categorization accuracy, 60% faster ticket creation — with automated ticket creation, team-expertise routing, priority classification, and enterprise controls: PII redaction before LLM ingestion, RBAC, and comprehensive audit trails.
+Architected the Salesforce Client Data Model via Kinesis and EventBridge (95% sync accuracy, 60% latency reduction), with the full AWS infrastructure managed via Terraform IaC.
+Designed event-driven microservices processing $10M+/day in transactions, achieving 50% latency reduction via async pipelines, intelligent caching, and query optimization.
+Won the 2024 internal Hackathon with an AI/ML task management tool using NLP intent detection and collaborative filtering across Outlook, Teams, and OneNote.
+Software Engineer II — Thomson Reuters · Bengaluru, India · May 2021 – Oct 2022
+Intelligent Document Processing · AWS Textract · Lambda · Step Functions · Python · CloudWatch
+Engineered a human-in-the-loop AI document pipeline (AWS Textract + FineReader) processing 10,000+ legal docs/day at 95% extraction accuracy, with automated quality validation gates flagging low-confidence extractions for human review.
+Designed a serverless ML workflow (Lambda + Step Functions + API Gateway) for parallel document processing — 150% throughput improvement, 45% error reduction, 99.5% SLA maintained via proactive CloudWatch monitoring and alerting.
+Built robust Python automation workflows with retry mechanisms and error handling, integrating downstream REST APIs and message queues across 8+ internal systems.
+Software Developer — Jio Platforms Ltd. · Navi Mumbai, India · Aug 2019 – May 2021
+Full-Stack · Kafka · MongoDB · Redis · WebSockets · React · Java · Spring Boot
+Developed a full-stack Electronic Medical Records system serving 100,000+ concurrent users — Kafka event streaming for real-time data sync, MongoDB for flexible storage, Redis for session management, and WebSocket live notifications — across 5 hospital networks.
+Designed and delivered RESTful microservices in Spring Boot for patient data, appointment scheduling, and billing modules.
+Cut load time 40% via performance profiling and optimization: code splitting, lazy loading, API response caching, database query optimization with indexing, and CDN deployment.
+Projects
+All of these follow the same rule from my day job — the model proposes, deterministic code disposes.
+CalmFix — gitlab/calmfix
+GitLab showcase · Devpost
+Python 3.12 · FastAPI · GitLab Duo Agent Platform · Cloud Run · Terraform · Docker · pytest
+An incident-to-fix loop for a production service on Cloud Run. A policy file, .agent-policy.yml, sets what agents may do alone; a triage agent finds the suspect commit and opens a fix MR, and a guardian agent reviews it against the policy.
+Agents have no merge tool — a merge governor merges only an approved MR with a green pipeline, then a 10% canary promotes or rolls back on its own. Every decision goes into a hash-chained audit log.
+Results: two real incidents resolved with no human in the loop, including one that failed its canary at p95 1347 ms against an 800 ms limit, rolled back, and was then fixed. 58 passing tests.
+AuthAssist — github/authassist
+Devpost
+Python · FastAPI · NVIDIA Nemotron (via Nebius Token Factory) · Tavily · Pydantic · ReportLab · Docker
+Checks a clinical note against the insurer's current published policy for prior authorization (MRI lumbar spine, CPT 72148) and shows exactly what evidence is missing, before the insurer does. Nothing is ever submitted to an insurer.
+Code verifies every evidence quote appears word-for-word in the note and computes the readiness score itself — never the LLM. Nemotron models are routed by role: Ultra for reasoning, Nano for fast extraction, a vision model for faxed scans.
+Results: 8/8 correct outcomes on 8 synthetic cases, 100% of evidence quotes verified verbatim, with a gap-fill loop that moved one case's score from 33 to 100.
+Unrush — github/unrush
+Devpost
+TypeScript · MCP · Amazon Bedrock · AgentCore Memory · React · SQLite
+A proactive household assistant (a simulated Alexa+ experience in the browser) that speaks first when a late meeting breaks an evening — working departure time, dinner, and groceries in order. It never spends money without asking.
+Self-hosted MCP server with 17 tools and a proactive engine that detects a squeezed departure or a dinner that no longer fits, using plain arithmetic for leave-by times and staple run-out.
+Consent by design: three independent locks before any order — the tool requires confirmed: true, the backend requires a clear yes, and app views are read-only. 95 automated tests.
+TrustCheck — devpost/trustcheck
+Devpost
+TypeScript · Gemini / Vertex AI · React · Node.js · Express · PostgreSQL
+Fact-checks money claims, scam emails, and headlines, showing the evidence rather than the hype. It never gives financial advice and never says buy or sell.
+Every verdict is decided in code from tier-weighted evidence (Tier 1 primary sources = 3, Tier 2 established news = 2, Tier 3 = 0.5, capped), and the app does claim math itself — "5% every week" becomes the yearly return it implies. Also includes an email scam check and ScamSOS, a rules-first safety plan linked to FTC / FBI IC3 guidance.
+Results: 224 unit tests covering tiering, math, verdicts, validators, and email signals.
+Gatherly — github/gatherly
+Devpost
+Next.js · TypeScript · Qloo · Gemini · Supabase · Tailwind · Vercel
+A group-event agent that treats taste as data: describe the night, add 3–6 people and what each one loves, and it plans a night where every pick can show its work. It never books or pays for anything.
+Gemini runs a tool-use loop over Qloo taste data, and a grounding validator in code checks that every pick's entity ID was actually returned by Qloo and limits each pick's "fits" to real group members.
+Results: in one live run, 7 of 7 Qloo picks traced to real data versus 0 of 8 for an LLM-only plan. 33 unit tests plus a live suite of 7 tests against the real Qloo API.
+OwlSpeaks — AI Finance Trading Platform — github/owls-street
+GitHub — OpenOwls-at-Temple/owls-street
+Python · React · LangChain · RAG · TradingView-style charting
+Co-developed with a Temple University Fox School of Business professor specialising in AI in Finance, for retail traders and finance students who need a risk-free way to learn and validate strategies.
+OwlSpeaks GPT — a custom RAG pipeline over live market data, so natural-language queries are grounded in current financial context with cited sources.
+Screener and paper trading — rule-based filters (P/E, RSI, volume, momentum, sector) with alerts and charting overlays, plus a paper-trading engine with trade journaling, P&L attribution, and drawdown analytics.
+Catalog Risk Auditor — github/catalog-risk-auditor
+Devpost
+Python 3.10+ · HumanStandard detection API · zero runtime dependencies
+🏆 Winning project at the Philadelphia AI Agent Hackathon (late September, 19 teams, per Technical.ly).
+Audits a music catalog before acquisition: it scores every asset for AI generation, sorts the catalog into clean / contested / suspect using calibrated detection tiers, joins the result to reported revenue, and produces a risk memo with a recommended escrow figure.
+Results: suspect assets were 37.5% of the demonstration catalog by count but only 17.4% by revenue, producing a recommended escrow of $171,710 against a $720,000 asking price. It caught 6 of 6 AI tracks with zero human tracks wrongly flagged. 275 tests, 90% coverage, zero runtime dependencies.
+Schuylkill Sentinel
+Devpost
+Next.js 15 · TypeScript · Gemini · TimescaleDB (Tiger Data) · Leaflet · ElevenLabs
+🏆 Hackathon-winning project, built for OwlHacks.
+Answers the one question a Philly rower actually asks — "Is the water OK today?" — with a live map of six riverfront spots, each scored 0–100 for combined-sewer-overflow and river risk after rain.
+Data comes from USGS gauges and Open-Meteo rainfall; a transparent, rule-based risk model scores each spot, and a Gemini agent ("Ask the Sentinel") calls the same tools and streams its reasoning trace live, with an ElevenLabs read-aloud option.
+Results: 48 tests covering each risk factor, band boundaries, and the agent route in every failure mode, with cached-fixture fallbacks so it never shows a blank screen.
+Core skills
+Agent governance and security: Neurosymbolic policy enforcement, autoformalization, policy-as-code, trajectory scanning, monitor agents, human-in-the-loop (HITL), prompt-injection defenses, PII redaction, RBAC, audit trails, MCP servers and MCP Apps
+Agents, ML and RAG: LangGraph, LangChain, GPT-4, Amazon Bedrock / AgentCore, NVIDIA Nemotron, Gemini / Vertex AI, Tavily, Qloo, RAG pipelines, vector databases, OpenAI embeddings, PyTorch, scikit-learn, SHAP, NLP, fine-tuning, text classification
+Languages and platforms: Python, Rust, Java, C++, TypeScript, SQL · React, Svelte, Next.js, Spring Boot, Node.js, FastAPI · AWS (Lambda, ECS/EKS, Kinesis, EventBridge, Step Functions, SageMaker, Bedrock), GCP, Terraform, Docker, Kubernetes, Kafka, PostgreSQL, MongoDB, MySQL, Redis
+Education and certifications
+M.S. Computer Science, Temple University, Philadelphia, PA — Expected May 2027 · GPA 3.64/4.0 · Applied ML, interpretable AI, deep learning, neural network architectures, computer vision
+B.Tech Computer Science Engineering, SMRIST, Chennai, India — May 2019 · GPA 9.28/10 · Dean's List, Academic Excellence Award
+Certifications: AWS Solutions Architect – Associate (2024) · HashiCorp Terraform Associate (2024)
+Recognition: JPMorgan Chase internal Hackathon winner (2024) · Catalog Risk Auditor — winning project, Philadelphia AI Agent Hackathon · Schuylkill Sentinel — hackathon-winning project, OwlHacks · Global Code Warrior World Cup: Top 50 Global Final
+Published: "Sentimental Analysis Using GSM Technologies," IJARIIE (2018)
+Let's connect
+Email: dashsoundarya12@gmail.com
+LinkedIn: linkedin.com/in/soundarya-dash
+Devpost: devpost.com/dashsoundarya
+This portfolio: github.com/codergirl73/soundarya-dash-673
+Open to work on agentic AI, agent governance and security, and production ML systems.
