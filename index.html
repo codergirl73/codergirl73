@@ -4,107 +4,199 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#07111f">
-  <meta name="description" content="Soundarya Dash — Senior Software Engineer and ML Engineer building agentic AI systems, AI governance, and production ML.">
-  <title>Soundarya Dash | AI & Software Engineer</title>
+  <meta name="description" content="Soundarya Dash is a Senior Software Engineer and ML Engineer building agentic AI systems, AI governance, production ML, and distributed platforms.">
+  <meta property="og:title" content="Soundarya Dash — Software Engineer | Agentic AI & ML">
+  <meta property="og:description" content="6+ years building enterprise software, agentic AI platforms, and production ML systems. Explore selected work, measurable impact, and experience.">
+  <meta property="og:type" content="website">
+  <title>Soundarya Dash | Software Engineer · Agentic AI · ML</title>
   <style>
-    :root{--bg:#07111f;--panel:#0d1b2c;--panel2:#102238;--text:#eaf2fb;--muted:#9eb0c4;--cyan:#57d8ef;--line:#1d344b;--white:#fff;--max:1120px}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#12314a 0,transparent 36%),var(--bg);color:var(--text);font:16px/1.7 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
-    a{color:var(--cyan);text-decoration:none}a:hover{text-decoration:underline} .wrap{width:min(var(--max),calc(100% - 40px));margin:auto}
-    header{position:sticky;top:0;z-index:10;background:#07111fe8;backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
-    nav{height:68px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:800;letter-spacing:.02em;color:var(--text)}.brand span{color:var(--cyan)}
-    .navlinks{display:flex;gap:24px;font-size:.9rem}.navlinks a{color:var(--muted)}.navlinks a:hover{color:var(--cyan)}
-    .hero{padding:100px 0 82px;display:grid;grid-template-columns:1.4fr .6fr;gap:56px;align-items:center}
-    .eyebrow{color:var(--cyan);font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;font-weight:700}
-    h1{font-size:clamp(2.8rem,7vw,5.5rem);line-height:1.02;letter-spacing:-.055em;margin:18px 0 24px}h1 span{color:var(--cyan)}
-    .lead{font-size:1.18rem;color:#c4d2e0;max-width:700px}.hero-meta{color:var(--muted);font-size:.92rem;margin-top:22px}
-    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;padding:11px 17px;border:1px solid var(--cyan);border-radius:8px;font-weight:700}.btn.primary{background:var(--cyan);color:#06111d}.btn.secondary{color:var(--text);border-color:#38536c}
-    .hero-card{border:1px solid #24435c;background:linear-gradient(145deg,#10263a,#0b1727);border-radius:18px;padding:26px;box-shadow:0 24px 80px #0005}.hero-card .big{font-size:2.2rem;font-weight:800;color:var(--cyan)}.hero-card p{color:var(--muted);margin:3px 0 18px}.hero-card hr{border:0;border-top:1px solid var(--line);margin:18px 0}
-    section{padding:66px 0;border-top:1px solid #172b40}.section-head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:30px}h2{font-size:clamp(1.8rem,4vw,2.6rem);letter-spacing:-.035em;margin:0} .sub{color:var(--muted);max-width:600px;margin:8px 0 0}
-    .about-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:24px}.panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:25px}.panel p{color:#c0cedc;margin-top:0}.focus-list{display:grid;gap:13px}.focus-item{padding:14px 0;border-bottom:1px solid var(--line)}.focus-item:last-child{border:0}.focus-item strong{display:block}.focus-item span{color:var(--muted);font-size:.92rem}
-    .cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.project{background:linear-gradient(145deg,var(--panel),#0a1726);border:1px solid var(--line);border-radius:14px;padding:23px;display:flex;flex-direction:column;min-height:220px}.project h3{margin:0 0 8px;font-size:1.2rem}.project p{color:#b7c6d5;margin:0 0 18px;flex:1}.tags{display:flex;gap:7px;flex-wrap:wrap;margin:0 0 17px}.tag{font-size:.75rem;color:#b7dce7;border:1px solid #28506a;border-radius:30px;padding:3px 9px}.project-links{display:flex;gap:15px;font-size:.9rem}
-    .timeline{display:grid;gap:16px}.role{display:grid;grid-template-columns:220px 1fr;gap:25px;padding:22px 0;border-bottom:1px solid var(--line)}.role:last-child{border:0}.date{color:var(--cyan);font-size:.88rem;font-weight:700}.role h3{margin:0;font-size:1.1rem}.role .company{color:var(--muted);margin:2px 0 10px}.role ul{margin:0;padding-left:19px;color:#bdcbd9}.role li{margin:6px 0}
-    .skills{display:flex;flex-wrap:wrap;gap:9px}.skill{padding:8px 12px;border-radius:7px;background:#10243a;border:1px solid #213b54;color:#d5e2ee;font-size:.9rem}
-    .edu-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.edu h3{margin:0 0 5px}.edu p{margin:0;color:var(--muted)}
-    .contact{display:flex;justify-content:space-between;align-items:center;gap:24px;background:linear-gradient(120deg,#103047,#0c1b2c);border:1px solid #28506a;border-radius:16px;padding:30px}.contact h2{font-size:2rem}.contact p{color:var(--muted);margin:7px 0 0}
-    footer{padding:28px 0;color:var(--muted);font-size:.85rem}.footer-inner{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
-    @media(max-width:760px){.hero{grid-template-columns:1fr;padding:70px 0 55px;gap:30px}.hero-card{max-width:500px}.navlinks{gap:12px;font-size:.78rem}.navlinks a:nth-child(3){display:none}.about-grid,.cards,.edu-grid{grid-template-columns:1fr}.role{grid-template-columns:1fr;gap:7px}.section-head{display:block}.contact{display:block}.contact .btn{margin-top:18px}}
-    @media(max-width:430px){.wrap{width:min(var(--max),calc(100% - 28px))}.navlinks a:nth-child(2){display:none}.brand{font-size:.9rem}}
+    :root{--bg:#07111f;--surface:#0d1b2b;--surface2:#10243a;--text:#edf5fc;--muted:#a6b8ca;--cyan:#63def2;--cyan2:#b0f1fb;--line:#20384f;--green:#a8e6c1;--max:1160px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:88px}body{margin:0;background:radial-gradient(ellipse at 78% -8%,#173b55 0,transparent 34%),var(--bg);color:var(--text);font:16px/1.7 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    a{color:var(--cyan);text-decoration:none}a:hover{text-decoration:underline;color:var(--cyan2)}a:focus-visible,button:focus-visible{outline:2px solid var(--cyan);outline-offset:4px}
+    .wrap{width:min(var(--max),calc(100% - 44px));margin:auto}.skip{position:absolute;left:-9999px;top:8px;background:var(--cyan);color:#06111d;padding:8px 12px;border-radius:6px}.skip:focus{left:12px;z-index:50}
+    header{position:sticky;top:0;z-index:20;background:#07111fee;backdrop-filter:blur(16px);border-bottom:1px solid #1a3045}
+    nav{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:22px}.brand{color:var(--text);font-weight:850;letter-spacing:.06em}.brand b{color:var(--cyan)}.navlinks{display:flex;align-items:center;gap:24px}.navlinks a{color:var(--muted);font-size:.88rem}.navlinks a:hover{color:var(--cyan)}.nav-cta{border:1px solid #3c6b83;padding:7px 12px;border-radius:7px}
+    .hero{padding:96px 0 72px;display:grid;grid-template-columns:minmax(0,1.45fr) minmax(260px,.65fr);gap:54px;align-items:center}.kicker{color:var(--cyan);font-size:.76rem;font-weight:800;letter-spacing:.18em;text-transform:uppercase}.availability{display:inline-flex;align-items:center;gap:8px;border:1px solid #2a594b;background:#10271f;color:#b8edcb;padding:6px 10px;border-radius:999px;font-size:.76rem;margin-bottom:20px}.dot{width:7px;height:7px;background:#78d99b;border-radius:50%;box-shadow:0 0 0 4px #78d99b20}
+    h1{font-size:clamp(2.8rem,6.6vw,5.3rem);line-height:1.02;letter-spacing:-.06em;margin:15px 0 22px;max-width:800px}h1 span{color:var(--cyan)}.intro{font-size:clamp(1.05rem,2vw,1.22rem);color:#c7d5e2;max-width:730px;margin:0}.hero-meta{display:flex;flex-wrap:wrap;gap:10px 18px;color:var(--muted);font-size:.9rem;margin-top:22px}.hero-meta span{display:inline-flex;align-items:center;gap:7px}.hero-meta span:before{content:"";width:4px;height:4px;background:#5d829b;border-radius:50%}
+    .actions{display:flex;gap:11px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:11px 16px;border:1px solid #3b5c73;border-radius:8px;color:var(--text);font-size:.9rem;font-weight:750;transition:transform .18s,border-color .18s,background .18s}.btn:hover{transform:translateY(-2px);border-color:var(--cyan);text-decoration:none}.btn.primary{background:var(--cyan);border-color:var(--cyan);color:#06121d}.btn.primary:hover{background:var(--cyan2)}
+    .profile-card{position:relative;border:1px solid #294b64;background:linear-gradient(145deg,#112b40,#0a1928);border-radius:18px;padding:25px;box-shadow:0 28px 80px #0005;overflow:hidden}.profile-card:after{content:"";position:absolute;width:190px;height:190px;border:1px solid #3e8aa044;border-radius:50%;right:-95px;top:-95px;box-shadow:0 0 0 22px #3e8aa012,0 0 0 45px #3e8aa00a}.monogram{width:54px;height:54px;display:grid;place-items:center;border-radius:14px;background:linear-gradient(145deg,#5ed8ee,#b2f0f8);color:#071522;font-weight:900;font-size:1.2rem;margin-bottom:20px}.profile-card h2{font-size:1.18rem;margin:0 0 5px}.profile-card .role{color:var(--cyan);font-size:.88rem;font-weight:700}.profile-card p{color:var(--muted);font-size:.9rem;margin:14px 0}.card-line{border:0;border-top:1px solid var(--line);margin:17px 0}.quick-facts{display:grid;gap:10px}.fact{display:flex;justify-content:space-between;gap:12px;font-size:.84rem}.fact span:first-child{color:var(--muted)}.fact strong{text-align:right}
+    .metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;padding:0 0 68px}.metric{background:#0b1a29;border:1px solid var(--line);border-radius:12px;padding:17px 18px}.metric strong{display:block;font-size:clamp(1.6rem,3vw,2.25rem);line-height:1.2;color:var(--cyan);letter-spacing:-.04em}.metric span{display:block;color:var(--muted);font-size:.8rem;margin-top:6px}
+    section{padding:72px 0;border-top:1px solid #172b40}.section-top{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:30px}.section-top h2{font-size:clamp(1.9rem,4vw,2.7rem);letter-spacing:-.045em;line-height:1.1;margin:7px 0 0}.section-top p{color:var(--muted);max-width:560px;margin:9px 0 0}.section-number{color:#66839a;font-size:.76rem;letter-spacing:.16em;font-weight:800}
+    .about-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:17px}.panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:25px}.panel p{color:#c0cfdd;margin:0 0 14px}.panel p:last-child{margin-bottom:0}.principles{display:grid;gap:0}.principle{padding:14px 0;border-bottom:1px solid var(--line)}.principle:first-child{padding-top:2px}.principle:last-child{border:0;padding-bottom:0}.principle strong{display:block;font-size:.95rem}.principle span{color:var(--muted);font-size:.86rem}
+    .project-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.project{background:linear-gradient(145deg,#0e1e2e,#0a1725);border:1px solid var(--line);border-radius:14px;padding:23px;display:flex;flex-direction:column;min-height:275px;transition:transform .2s,border-color .2s}.project:hover{transform:translateY(-3px);border-color:#3c7189}.project.featured{border-color:#32647b;background:linear-gradient(145deg,#102a3c,#0a1928)}.project-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}.project h3{font-size:1.15rem;line-height:1.35;margin:0 0 9px}.project-type{color:var(--cyan);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;font-weight:800;white-space:nowrap}.project p{color:#bac9d7;font-size:.91rem;margin:0 0 16px}.result{border-left:2px solid var(--cyan);padding:7px 0 7px 12px;color:#e1edf5;font-size:.86rem;margin:0 0 16px}.result strong{color:var(--cyan2)}.tags{display:flex;gap:7px;flex-wrap:wrap;margin-top:auto;padding-top:5px}.tag{font-size:.72rem;color:#c3dce7;border:1px solid #2b4d64;background:#102337;border-radius:999px;padding:3px 9px}.project-links{display:flex;gap:16px;flex-wrap:wrap;margin-top:18px;font-size:.85rem;font-weight:700}
+    .experience{display:grid;gap:0}.job{display:grid;grid-template-columns:205px 1fr;gap:28px;padding:25px 0;border-bottom:1px solid var(--line)}.job:last-child{border-bottom:0}.job-date{color:var(--cyan);font-size:.82rem;font-weight:800}.job h3{font-size:1.12rem;margin:0;line-height:1.4}.company{color:var(--muted);font-size:.88rem;margin:3px 0 12px}.job ul{margin:0;padding-left:19px;color:#c1cfdb;font-size:.9rem}.job li{margin:7px 0}.job li strong{color:#edf5fc}
+    .expertise-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.expertise{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:21px}.expertise h3{margin:0 0 11px;font-size:1rem}.expertise p{color:var(--muted);font-size:.88rem;margin:0}.skills{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}.skill{padding:7px 10px;border-radius:7px;background:#10243a;border:1px solid #29435a;color:#d6e3ee;font-size:.82rem}
+    .education-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.edu{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:21px}.edu h3{font-size:1rem;margin:0 0 5px}.edu p{font-size:.86rem;color:var(--muted);margin:0}.recognition{margin-top:14px;display:flex;flex-wrap:wrap;gap:8px}.award{border:1px solid #315b4c;background:#10251e;color:#c4ebd1;border-radius:7px;padding:7px 10px;font-size:.78rem}
+    .contact-box{display:flex;justify-content:space-between;align-items:center;gap:28px;background:linear-gradient(120deg,#12334a,#0c1b2a);border:1px solid #315c72;border-radius:16px;padding:32px}.contact-box h2{font-size:clamp(1.8rem,4vw,2.5rem);letter-spacing:-.04em;margin:7px 0}.contact-box p{color:var(--muted);margin:0;max-width:600px}.contact-actions{display:flex;gap:9px;flex-wrap:wrap;flex-shrink:0}
+    footer{padding:26px 0;color:#8197aa;font-size:.82rem}.footer-inner{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+    @media(max-width:850px){.hero{grid-template-columns:1fr;gap:28px;padding-top:70px}.profile-card{max-width:540px}.metrics{grid-template-columns:repeat(2,1fr)}.navlinks{gap:14px}.navlinks a:nth-child(3){display:none}.contact-box{display:block}.contact-actions{margin-top:20px}}
+    @media(max-width:650px){.wrap{width:min(var(--max),calc(100% - 30px))}.navlinks a:nth-child(2),.navlinks a:nth-child(4){display:none}.navlinks{gap:12px}.hero{padding:58px 0 48px}.metrics{padding-bottom:48px}.section-top{display:block}.about-grid,.project-grid,.expertise-grid,.education-grid{grid-template-columns:1fr}.job{grid-template-columns:1fr;gap:6px}.contact-box{padding:24px}.project{min-height:unset}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
   </style>
 </head>
 <body>
-<header><div class="wrap"><nav><a class="brand" href="#top">SOUNDARYA<span>.</span></a><div class="navlinks"><a href="#about">About</a><a href="#work">Work</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div></nav></div></header>
-<main id="top">
-  <div class="wrap hero">
+<a class="skip" href="#main">Skip to content</a>
+<header><div class="wrap"><nav aria-label="Main navigation">
+  <a class="brand" href="#top">SOUNDARYA<b>.</b></a>
+  <div class="navlinks"><a href="#about">About</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#expertise">Expertise</a><a href="#contact" class="nav-cta">Contact</a></div>
+</nav></div></header>
+<main id="main">
+  <div class="wrap hero" id="top">
     <div>
-      <div class="eyebrow">Senior Software Engineer · ML Engineer</div>
-      <h1>Building AI systems<br>that earn <span>trust.</span></h1>
-      <p class="lead">I design and build agentic AI platforms, AI governance systems, and production ML pipelines — combining capable models with deterministic controls, measurable outcomes, and human oversight.</p>
-      <div class="hero-meta">Philadelphia, PA · M.S. Computer Science, Temple University (2027)</div>
-      <div class="actions"><a class="btn primary" href="#work">Explore my work ↘</a><a class="btn secondary" href="mailto:dashsoundarya12@gmail.com">Get in touch</a><a class="btn secondary" href="https://github.com/codergirl73">GitHub ↗</a></div>
+      <div class="availability"><span class="dot"></span> Open to conversations about AI & software engineering</div>
+      <div class="kicker">Senior Software Engineer · ML Engineer</div>
+      <h1>I build <span>reliable AI systems</span> for the real world.</h1>
+      <p class="intro">6+ years building enterprise software, distributed platforms, agentic AI, and production ML. I work at the intersection of intelligent automation and dependable engineering — where models reason, and systems make outcomes measurable, secure, and verifiable.</p>
+      <div class="hero-meta"><span>Philadelphia, PA</span><span>M.S. Computer Science · Temple University</span><span>Agentic AI · Governance · ML</span></div>
+      <div class="actions">
+        <a class="btn primary" href="#projects">Explore selected work <span aria-hidden="true">↘</span></a>
+        <a class="btn" href="mailto:dashsoundarya12@gmail.com">Email me ↗</a>
+        <a class="btn" href="https://www.linkedin.com/in/soundarya-dash" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+      </div>
     </div>
-    <aside class="hero-card">
-      <div class="eyebrow">Engineering philosophy</div>
-      <div class="big">Model proposes.</div><p>AI handles language, synthesis, and suggestions.</p>
-      <div class="big">Code verifies.</div><p>Deterministic systems score, validate, and enforce policy.</p>
-      <hr><p>Focus areas: agent governance · agentic systems · production ML · RAG · AI security</p>
+    <aside class="profile-card" aria-label="Professional snapshot">
+      <div class="monogram">SD</div>
+      <h2>Soundarya Dash</h2><div class="role">Software Engineering · Applied AI</div>
+      <p>From enterprise-scale distributed systems to governed AI agents, I focus on building technology that works beyond the demo.</p>
+      <hr class="card-line">
+      <div class="quick-facts">
+        <div class="fact"><span>Experience</span><strong>6+ years</strong></div>
+        <div class="fact"><span>Enterprise teams</span><strong>JPMC · Thomson Reuters · Jio</strong></div>
+        <div class="fact"><span>Current focus</span><strong>Agent governance & security</strong></div>
+        <div class="fact"><span>Education</span><strong>Temple University · M.S. CS</strong></div>
+      </div>
+      <hr class="card-line">
+      <a href="https://github.com/codergirl73" target="_blank" rel="noreferrer">Explore GitHub profile ↗</a>
     </aside>
   </div>
 
+  <div class="wrap metrics" aria-label="Selected engineering impact">
+    <div class="metric"><strong>85%</strong><span>Accuracy · multi-agent workflow</span></div>
+    <div class="metric"><strong>65%</strong><span>Faster story creation across 15+ teams</span></div>
+    <div class="metric"><strong>10K+</strong><span>Documents in production RAG pipeline</span></div>
+    <div class="metric"><strong>100K+</strong><span>Concurrent users supported by EMR platform</span></div>
+  </div>
+
   <section id="about"><div class="wrap">
-    <div class="section-head"><div><div class="eyebrow">01 / About</div><h2>Engineering beyond the demo.</h2></div></div>
+    <div class="section-top"><div><div class="section-number">01 / PROFILE</div><h2>Engineering with accountability built in.</h2></div><p>I like the hard parts of applied AI: orchestration, evaluation, permissions, observability, and the engineering that makes intelligent systems safe to rely on.</p></div>
     <div class="about-grid">
-      <div class="panel"><p>I'm a software and ML engineer with 6+ years of experience building enterprise distributed systems, agentic AI platforms, and production RAG workflows across JPMorgan Chase, Thomson Reuters, and Jio Platforms.</p><p>Currently, I work on neurosymbolic agent governance at Sondera AI: translating organizational rules into policy-as-code and enforcing those policies across agent actions. I'm pursuing an M.S. in Computer Science at Temple University, with interests in applied machine learning, interpretable AI, and deep learning.</p><p>My goal is to make AI systems useful in real environments: observable, testable, secure, and accountable.</p></div>
-      <div class="panel"><div class="eyebrow">What I build</div><div class="focus-list">
-        <div class="focus-item"><strong>Agent governance & security</strong><span>Policy-as-code, autoformalization, trajectory monitoring, prompt-injection defenses.</span></div>
-        <div class="focus-item"><strong>Agentic AI systems</strong><span>Multi-agent orchestration, LangGraph, MCP tools, consent and approval workflows.</span></div>
-        <div class="focus-item"><strong>Production ML & RAG</strong><span>Document intelligence, retrieval pipelines, evaluation, enterprise controls.</span></div>
+      <div class="panel">
+        <p>I'm a Software Engineer and ML Engineer with 6+ years of experience shipping enterprise distributed systems, agentic AI platforms, and production RAG workflows across JPMorgan Chase, Thomson Reuters, and Jio Platforms.</p>
+        <p>Currently, I'm building neurosymbolic agent governance at Sondera AI — helping translate organizational rules into policy-as-code and enforce those policies across agent actions. I'm also pursuing an M.S. in Computer Science at Temple University, with a focus on applied machine learning, interpretable AI, and deep learning.</p>
+        <p>My engineering principle: let models interpret, reason, and propose; let deterministic systems validate, enforce, and keep an auditable record.</p>
+      </div>
+      <div class="panel"><div class="kicker">How I approach systems</div><div class="principles">
+        <div class="principle"><strong>Useful intelligence</strong><span>Agents solve bounded tasks with clear goals, tools, and stop conditions.</span></div>
+        <div class="principle"><strong>Deterministic control</strong><span>Code owns validation, authorization, scoring, and consequential decisions.</span></div>
+        <div class="principle"><strong>Evidence over claims</strong><span>Evaluation, tests, traces, and audit trails make system behavior inspectable.</span></div>
+        <div class="principle"><strong>Production thinking</strong><span>Security, reliability, latency, cost, and human review are architecture concerns.</span></div>
       </div></div>
     </div>
   </div></section>
 
-  <section id="work"><div class="wrap">
-    <div class="section-head"><div><div class="eyebrow">02 / Selected work</div><h2>Projects with proof behind them.</h2><p class="sub">A selection of systems built around a consistent idea: AI should show its work, and critical decisions should be verifiable.</p></div></div>
-    <div class="cards">
-      <article class="project"><h3>CalmFix — Policy-Governed Incident Automation</h3><p>An incident-to-fix workflow where agents investigate and propose changes, while a separate merge governor enforces policy, pipeline, and canary requirements. Includes a hash-chained audit log and 58 passing tests.</p><div class="tags"><span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">GitLab Duo</span><span class="tag">Cloud Run</span></div><div class="project-links"><a href="https://gitlab.com/gitlab-ai-hackathon/transcend-october-2026/43456551/showcase">Showcase ↗</a><a href="https://devpost.com/software/calmfix">Devpost ↗</a></div></article>
-      <article class="project"><h3>AuthAssist — Prior Authorization Evidence</h3><p>Checks clinical notes against published payer policy and identifies missing evidence. Code verifies quotations and calculates readiness; the system does not submit anything to an insurer.</p><div class="tags"><span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">Nemotron</span><span class="tag">Pydantic</span></div><div class="project-links"><a href="https://devpost.com/software/authassist">Devpost ↗</a></div></article>
-      <article class="project"><h3>Unrush — Proactive Household Agent</h3><p>A simulated proactive assistant that helps reorganize an evening when plans change. Its MCP tools and backend require explicit consent before consequential actions; 95 automated tests.</p><div class="tags"><span class="tag">TypeScript</span><span class="tag">MCP</span><span class="tag">Bedrock</span><span class="tag">React</span></div><div class="project-links"><a href="https://github.com/codergirl73/unrush">GitHub ↗</a><a href="https://devpost.com/software/unrush-2g3fo1">Devpost ↗</a></div></article>
-      <article class="project"><h3>Gatherly — Group Event Planning Agent</h3><p>A group-event planner grounded in taste data. A deterministic validator checks entity IDs and ensures recommendations map to actual group members; 33 unit tests plus a live API suite.</p><div class="tags"><span class="tag">Next.js</span><span class="tag">Gemini</span><span class="tag">Qloo</span><span class="tag">Supabase</span></div><div class="project-links"><a href="https://github.com/codergirl73/gatherly">GitHub ↗</a><a href="https://devpost.com/software/gatherly-rm0hbu">Devpost ↗</a></div></article>
-      <article class="project"><h3>Catalog Risk Auditor</h3><p>Audits music catalogs for AI-generated content and produces a revenue-aware risk assessment. Winning project at the Philadelphia AI Agent Hackathon; 275 tests and 90% coverage.</p><div class="tags"><span class="tag">Python</span><span class="tag">Risk scoring</span><span class="tag">Detection</span></div><div class="project-links"><a href="https://github.com/codergirl73/catalog-risk-auditor">GitHub ↗</a><a href="https://devpost.com/software/catalog-risk-auditor">Devpost ↗</a></div></article>
-      <article class="project"><h3>Schuylkill Sentinel</h3><p>A river-safety information experience for Philadelphia, combining public water and weather data with a transparent risk model and a tool-using assistant. Built for OwlHacks.</p><div class="tags"><span class="tag">Next.js</span><span class="tag">Gemini</span><span class="tag">TimescaleDB</span><span class="tag">Leaflet</span></div><div class="project-links"><a href="https://devpost.com/software/schuylkill-sentinel">Devpost ↗</a></div></article>
-      <article class="project"><h3>Agentic AI System Design</h3><p>A structured learning and implementation resource covering agent foundations, architecture, orchestration, evaluation, and system-design trade-offs.</p><div class="tags"><span class="tag">Agentic AI</span><span class="tag">System design</span><span class="tag">Mermaid</span></div><div class="project-links"><a href="https://github.com/codergirl73/agentic-ai-system-design">Explore repository ↗</a></div></article>
-      <article class="project"><h3>OwlSpeaks — AI Finance Learning Platform</h3><p>A research and learning platform with a RAG assistant grounded in market context, screeners, charting, and paper-trading workflows.</p><div class="tags"><span class="tag">Python</span><span class="tag">React</span><span class="tag">LangChain</span><span class="tag">RAG</span></div><div class="project-links"><a href="https://github.com/OpenOwls-at-Temple/owls-street">GitHub ↗</a></div></article>
+  <section id="projects"><div class="wrap">
+    <div class="section-top"><div><div class="section-number">02 / SELECTED WORK</div><h2>Built, tested, measured.</h2></div><p>A few examples of the systems I enjoy building: AI agents with guardrails, evidence-grounded workflows, and software that makes complex decisions easier to inspect.</p></div>
+    <div class="project-grid">
+      <article class="project featured">
+        <div class="project-head"><h3>CalmFix — Policy-Governed Incident Automation</h3><span class="project-type">AI agents · DevOps</span></div>
+        <p>An incident-to-fix workflow for Cloud Run services. Triage and guardian agents investigate and propose a fix, while an independent merge governor enforces policy, pipeline, and canary requirements.</p>
+        <div class="result"><strong>58 passing tests.</strong> Two real incidents resolved; a failed canary triggered rollback rather than an unsafe promotion.</div>
+        <div class="tags"><span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">GitLab Duo</span><span class="tag">GCP</span><span class="tag">Terraform</span></div>
+        <div class="project-links"><a href="https://gitlab.com/gitlab-ai-hackathon/transcend-october-2026/43456551/showcase" target="_blank" rel="noreferrer">Technical showcase ↗</a><a href="https://devpost.com/software/calmfix" target="_blank" rel="noreferrer">Devpost ↗</a></div>
+      </article>
+      <article class="project featured">
+        <div class="project-head"><h3>AuthAssist — Evidence-First Prior Authorization</h3><span class="project-type">Applied AI · RAG</span></div>
+        <p>Checks a clinical note against a payer's published policy and identifies missing evidence. The model extracts candidate evidence; deterministic code verifies quotations and computes readiness.</p>
+        <div class="result"><strong>8/8 synthetic cases correct;</strong> every evidence quote verified verbatim. The tool does not submit anything to an insurer.</div>
+        <div class="tags"><span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">Nemotron</span><span class="tag">Pydantic</span></div>
+        <div class="project-links"><a href="https://devpost.com/software/authassist" target="_blank" rel="noreferrer">Project overview ↗</a></div>
+      </article>
+      <article class="project">
+        <div class="project-head"><h3>Unrush — Consent-First Proactive Agent</h3><span class="project-type">Agentic AI · MCP</span></div>
+        <p>A proactive household assistant that replans an evening when schedules change. A self-hosted MCP server exposes tools, while separate consent checks protect consequential actions.</p>
+        <div class="result"><strong>95 automated tests.</strong> Three independent confirmation locks before any order can be placed.</div>
+        <div class="tags"><span class="tag">TypeScript</span><span class="tag">MCP</span><span class="tag">Bedrock</span><span class="tag">React</span></div>
+        <div class="project-links"><a href="https://github.com/codergirl73/unrush" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://devpost.com/software/unrush-2g3fo1" target="_blank" rel="noreferrer">Devpost ↗</a></div>
+      </article>
+      <article class="project">
+        <div class="project-head"><h3>Gatherly — Grounded Group Planning Agent</h3><span class="project-type">Agentic AI · Full stack</span></div>
+        <p>A group-event planner that uses taste data to make recommendations. A grounding validator checks that every recommended entity came from the data provider and maps to real group members.</p>
+        <div class="result"><strong>7/7 picks grounded</strong> in one live run, compared with 0/8 for an LLM-only plan.</div>
+        <div class="tags"><span class="tag">Next.js</span><span class="tag">TypeScript</span><span class="tag">Gemini</span><span class="tag">Qloo</span><span class="tag">Supabase</span></div>
+        <div class="project-links"><a href="https://github.com/codergirl73/gatherly" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://devpost.com/software/gatherly-rm0hbu" target="_blank" rel="noreferrer">Devpost ↗</a></div>
+      </article>
+      <article class="project">
+        <div class="project-head"><h3>Catalog Risk Auditor</h3><span class="project-type">ML · Risk analysis</span></div>
+        <p>Audits music catalogs for AI-generated content, combines detection confidence with asset revenue, and produces an acquisition risk assessment with an evidence-backed escrow recommendation.</p>
+        <div class="result"><strong>Hackathon-winning project.</strong> 275 tests, 90% coverage, and 6/6 AI tracks identified in the demo set.</div>
+        <div class="tags"><span class="tag">Python</span><span class="tag">Detection</span><span class="tag">Risk scoring</span><span class="tag">Testing</span></div>
+        <div class="project-links"><a href="https://github.com/codergirl73/catalog-risk-auditor" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://devpost.com/software/catalog-risk-auditor" target="_blank" rel="noreferrer">Devpost ↗</a></div>
+      </article>
+      <article class="project">
+        <div class="project-head"><h3>Schuylkill Sentinel</h3><span class="project-type">AI · Data systems</span></div>
+        <p>A river-safety information experience for Philadelphia, combining public water and weather data with a transparent risk model and a tool-using assistant that explains its results.</p>
+        <div class="result"><strong>OwlHacks winning project.</strong> 48 tests covering risk factors, score boundaries, and agent-route failure modes.</div>
+        <div class="tags"><span class="tag">Next.js</span><span class="tag">Gemini</span><span class="tag">TimescaleDB</span><span class="tag">Leaflet</span></div>
+        <div class="project-links"><a href="https://devpost.com/software/schuylkill-sentinel" target="_blank" rel="noreferrer">Devpost ↗</a></div>
+      </article>
     </div>
+    <div class="actions"><a class="btn" href="https://github.com/codergirl73?tab=repositories" target="_blank" rel="noreferrer">More GitHub projects ↗</a><a class="btn" href="https://devpost.com/dashsoundarya" target="_blank" rel="noreferrer">All hackathon projects ↗</a><a class="btn" href="https://github.com/codergirl73/agentic-ai-system-design" target="_blank" rel="noreferrer">Agentic AI system design ↗</a></div>
   </div></section>
 
   <section id="experience"><div class="wrap">
-    <div class="section-head"><div><div class="eyebrow">03 / Experience</div><h2>Systems at enterprise scale.</h2></div></div>
-    <div class="timeline">
-      <div class="role"><div class="date">Jun 2026 — Present</div><div><h3>Full Stack Developer Intern · Sondera AI</h3><div class="company">Philadelphia, PA · Rust, Python, GCP, Svelte, React</div><ul><li>Contribute to an autoformalization engine that compiles natural-language rules into policy-as-code.</li><li>Build trajectory monitoring and policy-authoring experiences with violation review, escalation, and forensic proof trails.</li></ul></div></div>
-      <div class="role"><div class="date">Oct 2022 — Aug 2025</div><div><h3>Software Engineer III · JPMorgan Chase & Co.</h3><div class="company">Bengaluru, India · LangGraph, GPT-4, RAG, AWS, Terraform, Kafka</div><ul><li>Built a multi-agent Figma-to-JIRA workflow reaching 85% accuracy and reducing story-creation time by 65% across 15+ teams.</li><li>Deployed incident automation with 90% severity accuracy and reduced manual incident creation by 70%.</li><li>Built a RAG ServiceNow assistant over 10,000+ documents, reaching 90% categorization accuracy.</li><li>Designed event-driven services processing $10M+ per day, reducing latency by 50%.</li></ul></div></div>
-      <div class="role"><div class="date">May 2021 — Oct 2022</div><div><h3>Software Engineer II · Thomson Reuters</h3><div class="company">Bengaluru, India · Python, AWS Textract, Lambda, Step Functions</div><ul><li>Built human-in-the-loop document processing for 10,000+ legal documents per day at 95% extraction accuracy.</li><li>Improved serverless workflow throughput by 150% while maintaining a 99.5% SLA.</li></ul></div></div>
-      <div class="role"><div class="date">Aug 2019 — May 2021</div><div><h3>Software Developer · Jio Platforms Ltd.</h3><div class="company">Navi Mumbai, India · Java, Spring Boot, React, Kafka, MongoDB</div><ul><li>Developed an EMR platform supporting 100,000+ concurrent users across five hospital networks.</li><li>Reduced application load time by 40% through frontend, API, and database optimization.</li></ul></div></div>
+    <div class="section-top"><div><div class="section-number">03 / EXPERIENCE</div><h2>Enterprise engineering. Applied AI.</h2></div><p>Experience designing and delivering systems across financial services, legal technology, healthcare platforms, and AI governance.</p></div>
+    <div class="panel experience">
+      <article class="job"><div class="job-date">JUN 2026 — PRESENT<br>Philadelphia, PA</div><div><h3>Full Stack Developer Intern · Sondera AI</h3><div class="company">Rust · Python · GCP · Svelte · React</div><ul>
+        <li>Contribute to an <strong>autoformalization engine</strong> that compiles natural-language organizational rules into formally verified policy-as-code, including Rust evaluation components.</li>
+        <li>Engineered a trajectory scanner around correctness, safety, efficiency, and compliance, with a monitor agent that surfaces violations and escalates cases for human review.</li>
+        <li>Built Policy Studio experiences for authoring, simulating, versioning, and auditing policies, plus an operations dashboard for enforcement metrics and forensic proof trails.</li>
+      </ul></div></article>
+      <article class="job"><div class="job-date">OCT 2022 — AUG 2025<br>Bengaluru, India</div><div><h3>Software Engineer III · JPMorgan Chase & Co.</h3><div class="company">LangGraph · GPT-4 · RAG · AWS · Terraform · Spring Boot · Kafka</div><ul>
+        <li>Architected a <strong>LangGraph multi-agent Figma-to-JIRA workflow</strong> reaching 85% accuracy and 65% faster story creation across 15+ teams, with least-privilege IAM and prompt-injection defenses.</li>
+        <li>Deployed LLM incident automation with human feedback loops, achieving 90% severity accuracy and reducing manual incident creation by 70%.</li>
+        <li>Built a production RAG ServiceNow assistant over 10,000+ documents, reaching 90% categorization accuracy and 60% faster ticket creation, with PII redaction, RBAC, and audit trails.</li>
+        <li>Designed event-driven microservices processing <strong>$10M+ per day</strong>, reducing latency by 50% through asynchronous pipelines, caching, and query optimization.</li>
+      </ul></div></article>
+      <article class="job"><div class="job-date">MAY 2021 — OCT 2022<br>Bengaluru, India</div><div><h3>Software Engineer II · Thomson Reuters</h3><div class="company">Python · AWS Textract · Lambda · Step Functions · CloudWatch</div><ul>
+        <li>Engineered a human-in-the-loop document pipeline processing <strong>10,000+ legal documents per day</strong> at 95% extraction accuracy, routing low-confidence results for human review.</li>
+        <li>Designed parallel serverless processing workflows that improved throughput by 150%, reduced errors by 45%, and maintained a 99.5% SLA.</li>
+        <li>Integrated downstream REST APIs and message queues across 8+ internal systems with retry and failure-handling workflows.</li>
+      </ul></div></article>
+      <article class="job"><div class="job-date">AUG 2019 — MAY 2021<br>Navi Mumbai, India</div><div><h3>Software Developer · Jio Platforms Ltd.</h3><div class="company">Java · Spring Boot · React · Kafka · MongoDB · Redis</div><ul>
+        <li>Developed a full-stack Electronic Medical Records platform supporting <strong>100,000+ concurrent users</strong> across five hospital networks.</li>
+        <li>Built RESTful services for patient data, appointment scheduling, and billing, with Kafka event streaming and WebSocket notifications.</li>
+        <li>Reduced application load time by 40% through frontend optimization, API caching, and database query tuning.</li>
+      </ul></div></article>
     </div>
   </div></section>
 
-  <section id="skills"><div class="wrap">
-    <div class="section-head"><div><div class="eyebrow">04 / Technical toolkit</div><h2>Tools I use to build.</h2></div></div>
-    <div class="panel"><div class="skills">
-      <span class="skill">Python</span><span class="skill">Rust</span><span class="skill">Java</span><span class="skill">C++</span><span class="skill">TypeScript</span><span class="skill">SQL</span><span class="skill">LangGraph</span><span class="skill">LangChain</span><span class="skill">MCP</span><span class="skill">RAG</span><span class="skill">PyTorch</span><span class="skill">scikit-learn</span><span class="skill">React</span><span class="skill">Svelte</span><span class="skill">Next.js</span><span class="skill">FastAPI</span><span class="skill">Spring Boot</span><span class="skill">AWS</span><span class="skill">GCP</span><span class="skill">Terraform</span><span class="skill">Docker</span><span class="skill">Kubernetes</span><span class="skill">Kafka</span><span class="skill">PostgreSQL</span><span class="skill">MongoDB</span><span class="skill">Redis</span><span class="skill">AI governance</span><span class="skill">Evaluation</span>
-    </div></div>
+  <section id="expertise"><div class="wrap">
+    <div class="section-top"><div><div class="section-number">04 / TECHNICAL EXPERTISE</div><h2>Depth across the stack.</h2></div><p>My toolkit spans model orchestration, backend services, cloud infrastructure, data systems, and the controls required to run AI in production.</p></div>
+    <div class="expertise-grid">
+      <div class="expertise"><h3>Agentic AI & governance</h3><p>LangGraph, LangChain, MCP servers and Apps, multi-agent orchestration, autoformalization, policy-as-code, trajectory monitoring, HITL, prompt-injection defenses, audit trails.</p></div>
+      <div class="expertise"><h3>Machine learning & retrieval</h3><p>RAG pipelines, embeddings, vector search, NLP, text classification, PyTorch, scikit-learn, SHAP, model evaluation, document intelligence, NVIDIA Nemotron, Gemini, GPT-4.</p></div>
+      <div class="expertise"><h3>Software engineering</h3><p>Python, Rust, Java, C++, TypeScript, SQL, React, Svelte, Next.js, Spring Boot, Node.js, FastAPI, REST APIs, event-driven microservices.</p></div>
+      <div class="expertise"><h3>Cloud & distributed systems</h3><p>AWS, GCP, Lambda, ECS/EKS, Kinesis, EventBridge, Step Functions, Bedrock, Terraform, Docker, Kubernetes, Kafka, PostgreSQL, MongoDB, MySQL, Redis.</p></div>
+    </div>
   </div></section>
 
   <section id="education"><div class="wrap">
-    <div class="section-head"><div><div class="eyebrow">05 / Education & recognition</div><h2>Learning and building continuously.</h2></div></div>
-    <div class="edu-grid">
-      <div class="panel edu"><h3>M.S. Computer Science</h3><p>Temple University · Expected May 2027 · GPA 3.64/4.0</p></div>
-      <div class="panel edu"><h3>B.Tech Computer Science Engineering</h3><p>SMRIST · May 2019 · GPA 9.28/10 · Dean's List</p></div>
-      <div class="panel edu"><h3>Certifications</h3><p>AWS Solutions Architect – Associate · HashiCorp Terraform Associate</p></div>
-      <div class="panel edu"><h3>Recognition</h3><p>JPMorgan Chase Hackathon winner · Philadelphia AI Agent Hackathon winner · OwlHacks winner · Global Code Warrior World Cup Top 50</p></div>
+    <div class="section-top"><div><div class="section-number">05 / EDUCATION & RECOGNITION</div><h2>Learning, research, and building.</h2></div></div>
+    <div class="education-grid">
+      <div class="edu"><h3>M.S. Computer Science · Temple University</h3><p>Philadelphia, PA · Expected May 2027 · GPA 3.64/4.0<br>Applied ML, interpretable AI, deep learning, neural network architectures, computer vision.</p></div>
+      <div class="edu"><h3>B.Tech Computer Science Engineering · SMRIST</h3><p>Chennai, India · May 2019 · GPA 9.28/10<br>Dean's List · Academic Excellence Award.</p></div>
+      <div class="edu"><h3>Certifications</h3><p>AWS Solutions Architect – Associate (2024)<br>HashiCorp Terraform Associate (2024)</p></div>
+      <div class="edu"><h3>Research & technical interests</h3><p>Agentic AI system design, trustworthy and secure AI agents, adaptive evaluation, interpretable ML, retrieval systems, and GPU-accelerated inference.</p></div>
     </div>
+    <div class="recognition"><span class="award">JPMorgan Chase Internal Hackathon Winner · 2024</span><span class="award">Philadelphia AI Agent Hackathon Winner</span><span class="award">OwlHacks Winning Project</span><span class="award">Global Code Warrior World Cup · Top 50</span><span class="award">IJARIIE Publication · 2018</span></div>
   </div></section>
 
-  <section id="contact"><div class="wrap"><div class="contact"><div><div class="eyebrow">06 / Contact</div><h2>Let's build something meaningful.</h2><p>Interested in agentic AI, AI governance and security, or production ML systems? Let's connect.</p></div><div class="actions"><a class="btn primary" href="mailto:dashsoundarya12@gmail.com">Email me ↗</a><a class="btn secondary" href="https://www.linkedin.com/in/soundarya-dash">LinkedIn ↗</a><a class="btn secondary" href="https://github.com/codergirl73">GitHub ↗</a></div></div></div></section>
+  <section id="contact"><div class="wrap"><div class="contact-box">
+    <div><div class="kicker">06 / LET'S CONNECT</div><h2>Have an interesting problem to solve?</h2><p>I'm interested in thoughtful engineering conversations around agentic AI, AI governance and security, applied ML, and distributed systems.</p></div>
+    <div class="contact-actions"><a class="btn primary" href="mailto:dashsoundarya12@gmail.com">Email Soundarya ↗</a><a class="btn" href="https://www.linkedin.com/in/soundarya-dash" target="_blank" rel="noreferrer">LinkedIn ↗</a><a class="btn" href="https://github.com/codergirl73" target="_blank" rel="noreferrer">GitHub ↗</a></div>
+  </div></div></section>
 </main>
-<footer><div class="wrap footer-inner"><span>© <span id="year">2026</span> Soundarya Dash</span><span>Designed for clarity, built for the web.</span></div></footer>
-<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
-</body></html>
+<footer><div class="wrap footer-inner"><span>© <span id="year">2026</span> Soundarya Dash</span><span>Built with HTML & CSS · Hosted on GitHub Pages</span><span><a href="#top">Back to top ↑</a></span></div></footer>
+<script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+</body>
+</html>
