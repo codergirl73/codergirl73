@@ -2,7 +2,7 @@
 
 **Senior Software Engineer · ML Engineer · AI Agent Governance · Agentic AI**
 
-Philadelphia, PA · [dashsoundarya12@gmail.com](mailto:dashsoundarya12@gmail.com) · linkedin.com/in/soundarya-dash · [Devpost portfolio](https://devpost.com/dashsoundarya?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav) · [github.com/codergirl73/soundarya-dash-673](https://github.com/codergirl73/codergirl73)
+Philadelphia, PA · [dashsoundarya12@gmail.com](mailto:dashsoundarya12@gmail.com) · linkedin.com/in/soundarya-dash · [Devpost portfolio](https://devpost.com/dashsoundarya?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav) · [github.com/codergirl73/codergirl73](https://github.com/codergirl73/codergirl73)
 
 ## About me
 
